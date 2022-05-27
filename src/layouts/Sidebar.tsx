@@ -181,30 +181,30 @@ const Sidebar = () => {
           </NavLink>
         </div>
       </Wrapper>
-      <SocialMediaList isOpen={isOpen}>
-        {socialMediaList.map((item, index) => (
-          <React.Fragment key={item.href}>
-            <SocialMediaAnchor
-              className="desktop-only"
-              href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              title={item.title}
-              style={{ transitionDelay: `${index * 0.06 + 0.125}s` }}
-              iconSrc={item.icon}
-            />
-            <SocialMediaAnchor
-              className="mobile-only"
-              href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              title={item.title}
-              style={{ transitionDelay: `${index * 0.06 + 0.125}s` }}
-              iconSrc={item.iconLight}
-            />
-          </React.Fragment>
-        ))}
-      </SocialMediaList>
+      {/*<SocialMediaList isOpen={isOpen}>*/}
+      {/*  {socialMediaList.map((item, index) => (*/}
+      {/*    <React.Fragment key={item.href}>*/}
+      {/*      <SocialMediaAnchor*/}
+      {/*        className="desktop-only"*/}
+      {/*        href={item.href}*/}
+      {/*        target="_blank"*/}
+      {/*        rel="noopener noreferrer"*/}
+      {/*        title={item.title}*/}
+      {/*        style={{ transitionDelay: `${index * 0.06 + 0.125}s` }}*/}
+      {/*        iconSrc={item.icon}*/}
+      {/*      />*/}
+      {/*      <SocialMediaAnchor*/}
+      {/*        className="mobile-only"*/}
+      {/*        href={item.href}*/}
+      {/*        target="_blank"*/}
+      {/*        rel="noopener noreferrer"*/}
+      {/*        title={item.title}*/}
+      {/*        style={{ transitionDelay: `${index * 0.06 + 0.125}s` }}*/}
+      {/*        iconSrc={item.iconLight}*/}
+      {/*      />*/}
+      {/*    </React.Fragment>*/}
+      {/*  ))}*/}
+      {/*</SocialMediaList>*/}
     </>
   )
 }
