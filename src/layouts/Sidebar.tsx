@@ -169,13 +169,13 @@ const Sidebar = () => {
       />
       <Wrapper isOpen={isOpen}>
         <div>
-          <NavLink
-            to="/"
-            className={location.pathname?.includes("/pairs") ? "active" : ""}
-            onClick={() => close()}
-          >
-            Dashboard
-          </NavLink>
+          {/*<NavLink*/}
+          {/*  to="/"*/}
+          {/*  className={location.pathname?.includes("/pairs") ? "active" : ""}*/}
+          {/*  onClick={() => close()}*/}
+          {/*>*/}
+          {/*  Dashboard*/}
+          {/*</NavLink>*/}
           <NavLink to="/swap" onClick={() => close()}>
             Swap
           </NavLink>
