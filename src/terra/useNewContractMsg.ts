@@ -1,4 +1,4 @@
-import { MsgExecuteContract, Coins, Coin } from "@terra-money/terra.js"
+import { MsgExecuteContract, Coins, Coin } from "@palomachain/paloma.js"
 import { useAddress } from "../hooks"
 
 export default () => {

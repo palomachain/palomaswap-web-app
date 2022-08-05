@@ -29,7 +29,7 @@ import {
   getTxCanonicalMsgs,
 } from "@terra-money/log-finder-ruleset"
 import { SwapTxInfo as ISwapTxInfo } from "types/swapTx"
-import { TxInfo } from "@terra-money/terra.js"
+import { TxInfo } from "@palomachain/paloma.js"
 import { TxDescription } from "@terra-money/react-base-components"
 import { useLCDClient } from "@terra-money/wallet-provider"
 export interface ResultProps {

@@ -1,4 +1,4 @@
-import { MsgExecuteContract } from "@terra-money/terra.js"
+import { MsgExecuteContract } from "@palomachain/paloma.js"
 import { useAddress } from "hooks"
 import { div, times } from "libs/math"
 import { toAmount } from "libs/parse"

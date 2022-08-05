@@ -1,4 +1,4 @@
-import { Event, TxInfo, TxLog } from "@terra-money/terra.js"
+import { Event, TxInfo, TxLog } from "@palomachain/paloma.js"
 
 interface FeeAmount {
   amount: string
