@@ -20,18 +20,18 @@ const SocialMediaAnchorList = styled.div`
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <SocialMediaAnchorList className="mobile-only">
-        {socialMediaList.map((item) => (
-          <SocialMediaAnchor
-            key={item.href}
-            href={item.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            title={item.title}
-            iconSrc={item.icon}
-          />
-        ))}
-      </SocialMediaAnchorList>
+      {/*<SocialMediaAnchorList className="mobile-only">*/}
+      {/*  {socialMediaList.map((item) => (*/}
+      {/*    <SocialMediaAnchor*/}
+      {/*      key={item.href}*/}
+      {/*      href={item.href}*/}
+      {/*      target="_blank"*/}
+      {/*      rel="noopener noreferrer"*/}
+      {/*      title={item.title}*/}
+      {/*      iconSrc={item.icon}*/}
+      {/*    />*/}
+      {/*  ))}*/}
+      {/*</SocialMediaAnchorList>*/}
     </footer>
   )
 }
