@@ -8,7 +8,7 @@ import networks from "constants/networks"
 import { useModal } from "components/Modal"
 import ConnectListModal from "./ConnectListModal"
 import { ConnectModalProvider } from "hooks/useConnectModal"
-import { LCDClient } from "@terra-money/terra.js"
+import { LCDClient } from "@palomachain/paloma.js"
 
 const walletConnectChainIds: Record<number, NetworkInfo> = {
   0: networks.testnet,

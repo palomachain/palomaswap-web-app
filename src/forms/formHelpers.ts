@@ -1,4 +1,4 @@
-import { AccAddress } from "@terra-money/terra.js"
+import { AccAddress } from "@palomachain/paloma.js"
 import MESSAGE from "lang/MESSAGE.json"
 import { ceil, gt, gte, lte, min, times, minus, plus } from "libs/math"
 import { getLength, omitEmpty } from "libs/utils"

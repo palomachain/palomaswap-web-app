@@ -22,7 +22,7 @@ import useURL from "graphql/useURL"
 import terraswapConfig from "constants/terraswap.json"
 import axios from "./request"
 import { Type } from "pages/Swap"
-import { Msg } from "@terra-money/terra.js"
+import { Msg } from "@palomachain/paloma.js"
 import { AxiosError } from "axios"
 import { useContractsAddress } from "hooks/useContractsAddress"
 interface DenomBalanceResponse {

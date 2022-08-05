@@ -11,7 +11,7 @@
     "@terra-money/log-finder": "^1.1.6",
     "@terra-money/log-finder-ruleset": "^3.0.0",
     "@terra-money/react-base-components": "^2.0.0",
-    "@terra-money/terra.js": "^3.0.4",
+    "@palomachain/paloma.js": "^3.0.15",
     "@terra-money/wallet-provider": "^3.7.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
